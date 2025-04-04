@@ -1,4 +1,10 @@
 <x-layout>
-    <h1>Single Post</h1>
-    <p>Post id: {{ $id }}</p>
+    <h1>{{ $post->title }}</h1>
+    <p>{{ $post->category->name }}</p>
+
+    <p>{{ $post->content }}</p>
+
+
+
+    
 </x-layout>
