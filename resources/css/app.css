@@ -9,3 +9,43 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+body {
+    @apply bg-[#f2f2f2]
+}
+
+h1 {
+    @apply text-2xl font-bold text-green-500;
+}
+
+h2 {
+    @apply text-xl font-bold my-4;
+}
+
+h3 {
+    @apply text-lg font-bold my-4;
+}
+
+ul {
+    @apply my-10;
+}
+
+p {
+    @apply my-2;
+}
+
+/* form elements */
+form {
+    @apply max-w-screen-sm;
+}
+
+input,
+select,
+textarea {
+    @apply block w-full mt-2 mb-4 p-2 outline-1 rounded;
+}
+
+
+.container {
+    @apply max-w-screen-lg mx-auto px-12 py-8 min-h-[calc(100vh-80px)];
+}
